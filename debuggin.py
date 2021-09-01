@@ -6,9 +6,17 @@ def divisors(num):
     return divisors
 
 def run():
-    num = int(input('Ingresa un numero: '))
-    print(divisors(num))
-    print('Termino la Ejecución')
+    try:
+        num = int(input('Ingresa un numero: '))
+        if num <= 0:
+            raise Exception('Los numeros negativos no estan permitidos')
+        print(divisors(num))
+        print('Termino la Ejecución')
+    except ValueError:
+        print('Solo puedes ingresar un numero', ValueError)
+    except Exception:
+        print('No se permiten numeros negativos')
 
+        
 if __name__ == '__main__':
     run()
