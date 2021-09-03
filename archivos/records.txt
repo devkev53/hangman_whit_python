@@ -1,0 +1,10 @@
+Kp53:125
+Pedro:100
+Maria:70
+Jorge:65
+Mario:60
+Rigo:50
+BlackMamba:25
+Luz:10
+Pascual:9
+Roberto:5
